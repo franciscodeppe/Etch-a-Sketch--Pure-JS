@@ -1,0 +1,11 @@
+.game {
+    margin: auto;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 500px;
+  }
