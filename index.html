@@ -8,23 +8,24 @@
     <title>Etch-a-Sketch</title>
 
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/scripts.js"></script>
+
 
 </head>
 
 <body>
     <div class="game">
-        <h1>Etch-a-Sketch</h1>
-        <p>Enter Squares Desired</p>
-        <input id="my-input" type="number" name="quantity">
-        <button onclick="createSquares()">Try it</button>
-        <br>
-        <br>
-        <button onclick="reset()">Reset</button>
-        <br>
-        <br>
+        <div class="header">
+            <h1>Etch-a-Sketch</h1>
+        </div>
+
+        <button onclick="reset()">Reset Color</button>
         <div id="main"></div>
+        <p>Change Square Size</p>
+        <input id="my-input" type="number" name="quantity">
+        <button onclick="changeSquareSize()">Update</button>
+        <br>
     </div>
 </body>
+<script src="js/scripts.js"></script>
 
 </html>
