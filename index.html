@@ -19,7 +19,15 @@
         </div>
 
         <button onclick="reset()">Reset Color</button>
-        <div id="main"></div>
+        <div class="board">
+            <div class="side-panel">
+                <button onClick="updateColor(this)" id="red">Red</button>
+                <button onClick="updateColor(this)" id="blue">Blue</button>
+                <button onClick="updateColor(this)" id="white">White</button>
+                <button onClick="updateColor(this)" id="rainbow">Rainbow</button>
+            </div>
+            <div id="main"></div>
+        </div>
         <p>Change Square Size</p>
         <input id="my-input" type="number" name="quantity">
         <button onclick="changeSquareSize()">Update</button>
